@@ -1,0 +1,1577 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+  width:100vw;
+  height: 100vh;
+background-color: #000;
+
+
+}
+.box{
+    width: 390px;
+    height: 50px;
+    border-radius: 10px;
+    border: #000 2px solid;
+    margin-left:120px;
+ 
+   flex-direction: row;
+
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+}
+
+
+.input{
+    flex: 2;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-right:5px ;
+    padding-left:5px ;
+    font-family: "ubuntu";
+    width: 250px;
+    margin-left:10px ;
+    margin-top: 5px;
+    
+}
+
+button{
+background-color: #000;
+height: 50px;
+width: 60px;
+padding: 10px;
+border-radius: 10px;
+border: none;
+outline: none;
+color: #fff;
+position: relative;
+z-index: 1;
+left: 3em;
+
+}
+
+#one{
+    background-color: #ffd200;
+    height:100vh;
+    width: 100vw;
+    border-bottom: #000 3px solid;
+}
+#two{
+    background-color: #fff;
+    height:100vh;
+    width: 100vw;
+    border-bottom: #000 3px solid;
+}
+#three{
+    background-color: #ffd200;
+    height:100vh;
+    width: 100vw;
+    border-bottom: #000 3px solid;
+}
+#four{
+    background-color: #fff;
+    height:100vh;
+    width: 100vw;
+}
+#five{
+    background-color: #000;
+    height:100%;
+    width: 100vw;
+}
+.firstH1{
+    font-size: 65px ;
+    margin-top: 150px;
+    margin-left:120px;
+    font-family: "ubuntu";
+    line-height: 70px;
+} 
+
+
+.para{
+    font-size: 30px ;
+    font-weight: lighter;
+    margin-top: 90px;
+    margin-left:120px;
+    font-family: "ubuntu";
+    line-height: 35px;
+    
+}
+.para2{
+    font-size: 25px ;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left:120px;
+    font-family: "ubuntu";
+    margin-right: 20px;
+    line-height: 25px;
+    
+}
+.threepara{
+    font-size: 30px ;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-left:120px;
+    font-family: "ubuntu";
+    line-height: 35px;
+}
+.twopara{
+    font-size: 30px ;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-left:120px;
+    font-family: "ubuntu";
+    line-height: 35px;
+   
+    
+}
+.twopara2{
+    font-size: 25px ;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left:120px;
+    font-family: "ubuntu";
+    margin-right: 20px;
+    line-height: 25px;
+    
+}
+.fourpara{
+    font-size: 30px ;
+    font-weight: lighter;
+margin-top: 2em;
+    margin-left:120px;
+    font-family: "ubuntu";
+    line-height: 35px;
+}
+.taskam{
+    font-weight: 900;
+    font-family: "ubuntu-bold";
+}
+.signup{
+    line-height: 52px;
+    font-family: "ubuntu";
+    font-size: 47px ;
+    margin-top: 8em;
+    margin-left: 120px;
+}
+.apple {
+    width: 140px;
+    margin-top: 61px;
+  
+}
+.google{
+    width: 140px;
+   margin-left: 10px;
+   
+   margin-top: 61px;
+}
+
+.playandApplestore{
+ display: flex;
+ flex-direction: row;
+}
+.img1{
+    width:600px;
+
+    position: relative;
+    z-index: 1;
+    margin-left: 0em;
+    margin-top: 130px;
+}
+.img3{
+    width:600px;
+
+    position: relative;
+    z-index: 1;
+    margin-left: 0em;
+    margin-top: 120px;
+}
+.img2{
+    width:600px;
+
+    position: relative;
+    z-index: 1;
+    margin-left: -5em;
+    margin-top: 120px;
+}
+.img4{
+    width:600px;
+
+    position: relative;
+    z-index: 1;
+    margin-left: -5em;
+    margin-top: 80px;
+}
+
+.arrow1{
+    position: relative; 
+    text-decoration: none;
+    display: block;
+
+    }
+    .arrow2{
+        position: absolute; 
+      text-decoration: none;
+  right: 0.3px;
+      top: 105em;
+      display: block;
+          }
+          .arrow4{
+            position: absolute; 
+          text-decoration: none;
+      right: 0.3px;
+          top: 227em;
+          display: block;
+              }
+    .navigate{
+        color: #000;
+        text-align: center;
+        font-family: 'ubuntu';
+       font-size: 20px;
+       top: 2.9em;
+        position: absolute;
+        z-index: 9;
+        left: 11em;
+        line-height: 22px;
+        
+    }
+    .navigate3{
+        color: #000;
+        text-align: center;
+        font-family: 'ubuntu';
+       font-size: 20px;
+       top: 3.8em;
+        position: absolute;
+        z-index: 9;
+        left: 11em;
+        line-height: 22px;
+        
+    }
+    .navigate2{
+        color: #000;
+        text-align: center;
+        font-family: 'ubuntu';
+      right: 1.5em;
+        position: relative;
+        top: 3.3em;
+        z-index: 9;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .navigate4{
+        color: #000;
+        text-align: center;
+        font-family: 'ubuntu';
+      right: 1.5em;
+        position: relative;
+        top: 2.5em;
+        z-index: 9;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .navigate5{
+        color: #fff;
+        text-align: center;
+        font-family: 'ubuntu';
+       margin-top: 20px;
+
+    }
+    .icon{
+        width: 100px;
+        margin-left: 120px;
+        margin-top: 24em;
+    
+    }
+    .icon2{
+        width: 100px;
+        margin-top: 23em;
+        margin-left: 120px;
+    
+    }
+    .iconsecondpara{
+   margin-top:10em;
+    }
+
+    .twoCol{
+        margin-top: 20em; 
+        margin-left: 5em
+    }
+
+    .black{
+        width: 92em;
+        height: 200px;
+        border: #ffd200 3px solid;
+        border-radius: 20px;
+        position: relative;
+       top: 3em;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        
+        
+       }
+    .black2{
+        width: 20em;
+        height: 195px;
+    border-right: #ffd200 3px solid;
+    }
+    .taskamlogo{
+        width: 250px;
+        margin-top: 18px;
+        margin-left: 1em;
+    }
+    .footer{
+        font-size: 20px;
+            font-weight: lighter;
+            margin-top: 1.5em;
+            margin-left: 1.8em;
+            font-family: "ubuntu";
+            color: #fff ;
+            line-height: 28px;
+        }
+.follow{
+            font-size: 20px;
+                font-weight: lighter;
+                margin-top: 1.5em;
+                margin-left: 16em;
+                font-family: "ubuntu";
+                color: #fff ;
+                line-height: 28px;
+            }
+            .fabook-icons{
+                font-size:16px; 
+                color: #ffd200;
+                margin-top: 17px;
+            }
+    .taskamyellow{
+        color: #ffd200;
+        font-family: "ubuntu";
+        font-size: 35px;
+        font-weight: lighter;
+       font-family: "ubuntu";
+       margin-left: 1.6em;
+       margin-top: 3em;
+        }
+    ul li{
+        font-size: 23px;
+        font-weight: lighter;
+        color: #fff;
+        cursor: pointer;
+        padding: 7px;
+        font-family: "ubuntu";
+        list-style-type: none;
+        margin-left: 0.8em;
+    }
+    .socialmedia-icons{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: solid #ffd200 3px;
+        margin-left: 10px;
+        margin-top: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        .socialmedia{
+            display: flex;
+            flex-direction: row;
+            margin-top: 1.5em;
+            cursor: pointer;
+          
+           
+        }    
+#hidePara1,  #hidePara2,  #hidePara3, #hidePara4, #hidePara5, #hidePara6{
+            display: none;
+            color: #fff;
+           
+        }
+.hide{
+font-family: "ubuntu";
+margin-left: 25px;
+margin-top: 5px;
+        }
+       
+@media only screen and  (max-width:480px)  {
+    .taskamyellow{
+        color: #ffd200;
+        font-family: "ubuntu-bold";
+        font-size: 18px ;
+       margin-left:33px;
+       margin-top: 13em;
+       margin-bottom: 15px;
+        }
+        .fabook-icons{
+            font-size:10px; 
+            color: #ffd200;
+            margin-top: 18px;
+        }
+    ul li{
+        font-size: 15px;
+        font-weight: lighter;
+        color: #fff;
+        cursor: pointer;
+      padding: 4px;
+        font-family: "ubuntu";
+        list-style-type: none;
+        margin-left:0px;
+     
+    }
+
+    .black{
+        width: 15em;
+        height: 13em;
+        border: #ffd200 3px solid;
+        border-radius: 10px;
+        position: relative;
+       top: 8em;
+        margin-left: 33px;
+        display: flex;
+        flex-direction: column;
+   
+        
+        
+       }
+
+       .black2{
+        width: 100%;
+        height: 50px;
+    border-bottom: #ffd200 3px solid;
+    border-right: #ffd200 0px solid;
+    padding-bottom: 10px;
+    justify-content: center;
+    }
+    
+    .taskamlogo{
+        width: 100px;
+        margin-top: 4px;
+        margin-left: 4px;
+        margin-right: 4px;
+        
+    }
+    .hide{
+        margin-left: 3px;
+        font-size: 13px;
+    }
+    .footer{
+        font-size: 12px;
+            font-weight: lighter;
+            margin-left: 15px;
+            font-family: "ubuntu";
+            color: #fff ;
+            line-height: 15px;
+        }
+        .follow{
+           display: none;
+            }
+
+            .socialmedia-icons{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                border: solid #ffd200 3px;
+                margin-left: 10px;
+                margin-top: 0em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                
+                }
+                .socialmedia{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 1.5em;
+                    margin-left: 6px;
+                    cursor: pointer;
+                  
+                   
+                }  
+                .fabook {
+                    font-size: 10px;
+                }
+    .firstH1{
+        font-size: 35px ;
+        margin-left:33px;
+        margin-top: 40px;
+        line-height: 38px;
+    } 
+    .para{
+        font-size: 15px ;
+        margin-left:33px;
+        margin-top: 50px;
+        line-height: 18px;
+    } 
+    .para2{
+        margin-left:33px;
+        font-size: 13px ;
+        margin-top:10px;
+        margin-right: 10px;
+        line-height: 14px;
+    } 
+    .threepara{
+        font-size: 15px ;
+        margin-left:33px;
+        margin-top: 25px;
+        line-height: 18px;
+        
+    }
+
+.twopara{
+    font-size: 15px ;
+    margin-left:33px;
+    margin-top: 25px;
+    line-height: 18px;
+    
+}
+.twopara2{
+  margin-left:33px;
+        font-size: 13px ;
+        margin-top:10px;
+        margin-right: 10px;
+        line-height: 14px;
+}
+
+.fourpara{
+    font-size: 15px ;
+    margin-left:33px;
+    margin-top: 25px;
+    line-height: 18px;
+   
+}
+.signup{
+    font-size: 28px ;
+    font-family: "ubuntu";
+   
+    margin-top: 6em;
+    margin-left:33px;
+    line-height: 33px;
+}
+    .apple {
+        width: 70px;
+        margin-top: 12px;
+      
+    }
+    #one{
+        height: 100vh;
+        border-bottom: #000 1px solid;
+    }
+    #two{
+        height: 102vh;
+        border-bottom: #000 1px solid;
+    }
+    #three{
+        height: 100vh;
+        border-bottom: #000 1px solid;
+    }
+    #four{
+        height: 100vh;
+    }
+    #five{
+        height: 100vh;
+    }
+    .google{
+        width: 70px;
+       margin-left:5px;
+       margin-top: 12px;
+     
+    }
+    .arrow1 {
+       display: none;
+    }
+     .arrow2{
+        display: none;
+     }
+     .arrow4{
+        display: none;
+     }
+    .img1{
+    width:300px;
+        position: relative;
+        z-index: 1;
+        margin-left: 0.4em;
+        margin-top: 10px;
+    }
+    .img3{
+        width:300px;
+            position: relative;
+            z-index: 1;
+            margin-left: 0.4em;
+            margin-top: 10px;
+        }
+    .img2{
+        width:300px;
+    
+        position: relative;
+        z-index: 1;
+        margin-left: 0.4em;
+        margin-top: 10px;
+    }
+    .img4{
+        width:300px;
+    
+        position: relative;
+        z-index: 1;
+        margin-left: 0.4em;
+        margin-top: 25px;
+    }
+    .icon{
+        width: 70px;
+        margin-left:33px;
+        margin-top: 10em;
+    
+    }
+    .icon2{
+        width: 70px;
+        margin-left:33px;
+        margin-top: 10em;
+    
+    }
+    .twoCol{
+        margin-top: 0em; 
+        margin-left: 0em
+    }
+    .box{
+        width: 250px;
+        height: 40px;
+        border-radius: 7px;
+        border: #000 1px solid;
+        margin-left:33px;
+        display: flex;
+       flex-direction: row;
+      margin-top: 10px;
+      padding: 10px;
+      margin-left: 33px;
+      justify-content: space-between;
+       align-items: center;
+       
+    }
+    
+    
+    .input{
+        flex: 2;
+        height: 20px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding-right:3px ;
+        padding-left:3px ;
+       
+        width: 100px;
+        position: relative;
+        bottom: 3px;
+        font-family: "ubuntu";
+       
+        margin-left: 0px;
+       
+        
+    }
+    
+    button{
+    background-color: #000;
+    height: 40px;
+    width: 40px;
+   
+   border-radius: 10px;
+  padding-bottom: 10px;
+   
+    position: relative;
+    top: 0px;
+    left: 5em;
+   
+    }
+    .fa-long-arrow-right{
+        font-size:8px;
+        margin-top: -10em;
+
+    }
+    
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .taskamyellow{
+        color: #ffd200;
+       margin-left: 60px;
+       margin-top: 8em;
+     
+        }
+        .fabook-icons{
+            font-size:10px; 
+            color: #ffd200;
+            margin-top: 18px;
+        }
+    ul li{
+        font-size: 20px;
+        font-weight: lighter;
+        color: #fff;
+        cursor: pointer;
+      padding: 4px;
+        font-family: "ubuntu";
+        list-style-type: none;
+        margin-left: 28px;
+    }
+    .hide{
+        margin-left: 30px;
+    }
+    .black{
+        width: 20em;
+        height: 18em;
+        border: #ffd200 3px solid;
+        border-radius: 10px;
+        position: relative;
+       top: 4em;
+       margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+   }
+
+       .black2{
+        width: 100%;
+        height: 5em;
+    border-bottom: #ffd200 3px solid;
+    border-right: #ffd200 0px solid;
+    padding-bottom: 10px;
+    justify-content: center;
+    }
+    
+    .taskamlogo{
+        width: 150px;
+        margin-top: 8px;
+        margin-left: 8px;
+      
+        
+    }
+    .footer{
+        font-size: 14px;
+            font-weight: lighter;
+            margin-left: 23px;
+            font-family: "ubuntu";
+            color: #fff ;
+            line-height: 19px;
+        }
+        .follow{
+           display: none;
+            }
+
+.socialmedia-icons{
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                border: solid #ffd200 3px;
+                margin-left: 10px;
+                margin-top: 0em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                
+                }
+ .socialmedia{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 2.6em;
+                    cursor: pointer;
+                    margin-left: 16px;
+                  
+                   
+                }  
+ .fabook {
+                    font-size: 10px;
+                }
+
+    .firstH1{
+        font-size: 45px ;
+        margin-left: 50px;
+        margin-top: 50px;
+        line-height: 50px;
+    } 
+    .para{
+        font-size: 20px ;
+        margin-left: 50px;
+        margin-top: 50px;
+        line-height: 23px;
+    } 
+    .threepara{
+        font-size: 20px ;
+        margin-left: 50px;
+        margin-top: 25px;
+        line-height: 23px;
+    }
+    .para2{
+        margin-left: 50px;
+        font-size: 15px ;
+        margin-top:10px;
+        margin-right: 15px;
+        line-height: 18px;
+       
+    } 
+    
+    .apple {
+        width: 85px;
+        margin-top: 13px;
+      
+    }
+    .google{
+        width: 85px;
+       margin-left: 10px;
+       margin-top: 13px;
+     
+    }
+    #one{
+height: 125vh;
+    }
+    #two{
+        height: 130vh;
+    }
+    #three{
+        height: 127vh;
+    }
+    #four{
+        height: 130vh;
+    }
+    #five{
+        height: 120vh;
+    }
+    .arrow1{
+        display: none;
+     }
+     .img1{
+    width:380px;
+        position: relative;
+        z-index: 1;
+        margin-left: 1em;
+        margin-top: 30px;
+    }
+    .img3{
+        width:380px;
+            position: relative;
+            z-index: 1;
+            margin-left: 1em;
+            margin-top: 30px;
+        }
+    .img2{
+        width:380px;
+            position: relative;
+            z-index: 1;
+            margin-left: 1em;
+            margin-top: 30px;
+        }
+    
+    .twoCol{
+        margin-top: 0em; 
+        margin-left: 0em
+    }
+    .twopara{
+        font-size: 20px ;
+        margin-left: 50px;
+        margin-top: 25px;
+        line-height: 23px;
+        
+    }
+    .twopara2{
+        margin-left: 50px;
+        font-size: 15px ;
+        margin-top:10px;
+        margin-right: 15px;
+        line-height: 18px;
+        
+    }
+    .icon{
+        width: 70px;
+        margin-left: 50px;
+        margin-top: 15em;
+    
+    }
+
+    .icon2{
+        width: 70px;
+        margin-left: 50px;
+        margin-top: 15em;
+    
+    }
+    .fourpara{
+        font-size: 20px ;
+        margin-left: 50px;
+        margin-top: 25px;
+        line-height: 23px;
+       
+    }
+    .signup{
+        line-height: 52px;
+        font-family: "ubuntu";
+        font-size: 47px ;
+        margin-top: 5em;
+        margin-left: 50px;
+    }
+    .img4{
+        width:380px;
+        position: relative;
+        z-index: 1;
+        margin-left: 1em;
+       margin-top: 3em;
+    }
+    .box{
+        width: 250px;
+        height: 40px;
+        border-radius: 7px;
+        border: #000 2px solid;
+        margin-left:33px;
+        display: flex;
+       flex-direction: row;
+      margin-top: 10px;
+      padding: 10px;
+      margin-left: 50px;
+      justify-content: space-between;
+       align-items: center;
+       
+    }
+    
+    
+    .input{
+        flex: 2;
+        height: 20px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding-right:3px ;
+        padding-left:3px ;
+       
+        width: 100px;
+        position: relative;
+        bottom: 3px;
+        font-family: "ubuntu";
+       
+        margin-left: 0px;
+       
+        
+    }
+    
+    button{
+    background-color: #000;
+    height: 40px;
+    width: 40px;
+   
+   border-radius: 10px;
+  padding-bottom: 10px;
+   
+    position: relative;
+    top: 0px;
+    left: 5em;
+   
+    }
+    .arrow1 {
+        display: none;
+     }
+      .arrow2{
+         display: none;
+      }
+      .arrow4{
+         display: none;
+      }
+} 
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    .taskamyellow{
+        color: #ffd200;
+       margin-left: 60px;
+       margin-top: 8em;
+     
+        }
+        .fabook-icons{
+            font-size:10px; 
+            color: #ffd200;
+            margin-top: 18px;
+        }
+    ul li{
+        font-size: 20px;
+        font-weight: lighter;
+        color: #fff;
+        cursor: pointer;
+      padding: 4px;
+        font-family: "ubuntu";
+        list-style-type: none;
+        margin-left: 28px;
+    }
+    .hide{
+        margin-left: 30px;
+    }
+    .black{
+        width: 20em;
+        height: 18em;
+        border: #ffd200 3px solid;
+        border-radius: 10px;
+        position: relative;
+       top: 4em;
+       margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+   }
+
+       .black2{
+        width: 100%;
+        height: 5em;
+    border-bottom: #ffd200 3px solid;
+    border-right: #ffd200 0px solid;
+    padding-bottom: 10px;
+    justify-content: center;
+    }
+    
+    .taskamlogo{
+        width: 150px;
+        margin-top: 8px;
+        margin-left: 8px;
+      
+        
+    }
+    .footer{
+        font-size: 13px;
+            font-weight: lighter;
+            margin-left: 23px;
+            font-family: "ubuntu";
+            color: #fff ;
+            line-height: 18px;
+        }
+        .follow{
+           display: none;
+            }
+
+.socialmedia-icons{
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                border: solid #ffd200 3px;
+                margin-left: 10px;
+                margin-top: 0em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                
+                }
+ .socialmedia{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 2.7em;
+                    cursor: pointer;
+                    margin-left: 16px;
+                  
+                   
+                }  
+.fabook {
+                    font-size: 10px;
+                }
+    .firstH1{
+       
+        margin-left: 60px;
+        margin-top: 60px;
+    } 
+  
+
+    .img1{
+        width:400px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin-top: 30px;
+        margin-left: 30px;
+      
+    }
+    .img3{
+        width:400px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin-top: 50px;
+        margin-left: 30px;
+      
+    }
+    .img2{
+        width:400px;
+       
+        position: relative;
+        z-index: 1;
+        margin-top: 50px;
+        margin-left: 30px;
+      
+    }
+    .img4{
+        width:400px;
+       
+        position: relative;
+        z-index: 1;
+        margin-top: 50px;
+        margin-left: 30px;
+      
+    }
+#one{
+    height: 155vh;
+}
+#two{
+    height: 150vh;
+}
+
+#three{
+    height: 146vh;
+}
+#four{
+    height: 145vh;
+}
+#five{
+    height: 120vh;
+}
+.twoCol{
+    margin-top: 20em; 
+    margin-left: 0em
+}
+.icon{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 14em;
+
+}
+.icon2{
+    width: 100px;
+    margin-top: 14em;
+    margin-left: 50px;
+
+}
+    .para{
+     
+        margin-left: 60px;
+       
+    } 
+    .para2{
+        margin-left: 60px;
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 18px ;
+        line-height: 20px;
+       
+    } 
+    .threepara{
+        margin-left: 60px;
+     
+        margin-right: 10px;
+    }
+    .fourpara{
+        
+        margin-left: 60px;
+    }
+    .signup{
+        line-height: 45px;
+        font-family: "ubuntu";
+        font-size: 40px ;
+        margin-top: 6em;
+        margin-left: 60px;
+    }
+    .twopara{
+        margin-left: 33px;
+        margin-left: 60px;
+        
+        
+    }
+    .twopara2{
+        margin-left: 60px;
+        margin-top: 20px;
+        margin-right: 10px;
+        font-size: 18px ;
+        line-height: 20px;
+        
+    }
+    .apple {
+        width: 100px;
+        margin-top: 24px;
+      
+    }
+    .google{
+        width: 100px;
+       margin-left: 10px;
+       margin-top: 24px;
+     
+    }
+   
+     .box{
+        width: 320px;
+        height: 40px;
+        border-radius: 10px;
+        border: #000 2px solid;
+        margin-left: 60px;
+        padding: 10px;
+       flex-direction: row;
+    
+       margin-top: 20px;
+       display: flex;
+       align-items: center;
+    }
+    
+    
+    .input{
+        flex: 2;
+        height: 22px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        padding-right:5px ;
+        padding-left:5px ;
+        position: relative;
+        bottom: 3px;
+        font-family: "ubuntu";
+        width: 110px;
+        margin-left: 0px;
+
+        
+    }
+    
+    button{
+    background-color: #000;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  left: 8em;
+
+    }
+    .arrow1{
+        display: none;
+     }
+     .arrow2{
+        display: none;
+     }
+      .arrow4{
+        display: none;
+     }
+} 
+
+
+@media only screen and (min-width:992px) and (max-width:1204px) {
+   .img1{
+        width:380px;
+        position: relative;
+        z-index: 1;
+         margin-top: 60px;
+         margin-left: -4em;
+    }
+
+    .img2{
+        width:380px;
+        position: relative;
+        z-index: 1;
+         margin-top: 60px;
+         margin-left: -1em;
+    }
+    .img4{
+        width:380px;
+        position: relative;
+        z-index: 1;
+         margin-top: 60px;
+         margin-left: -1em;
+    }
+    .img3{
+        width:380px;
+        position: relative;
+        z-index: 1;
+         margin-top: 60px;
+         margin-left: -4em;
+    }
+    .apple {
+        width: 90px;
+        margin-top: 51px;
+       
+      
+    }
+    .google{
+        width: 90px;
+       margin-left: 10px;
+       margin-top: 51px;
+     
+    }
+    .firstH1{
+        font-size: 55px ;
+     margin-top: 80px;
+        margin-left: 100px;
+        font-family: "ubuntu";
+        line-height: 60px;
+        
+    }
+    .para{
+        font-size: 22px ;
+        font-weight: lighter;
+        margin-top:100px;
+        margin-left: 100px;
+        font-family: "ubuntu";
+        line-height:27px;
+        
+    }
+    .threepara{
+        font-size: 22px ;
+        font-weight: lighter;
+        margin-top:230px;
+        margin-left: 100px;
+        font-family: "ubuntu";
+        line-height:27px;
+        
+    }
+    
+
+    .para2{
+        font-size: 16px ;
+        font-weight: lighter;
+        margin-top: 50px;
+        margin-left: 100px;
+        font-family: "ubuntu";
+        margin-right: 10px;
+     
+        line-height:18px;
+    }
+    .twopara{
+        font-size: 22px ;
+        font-weight: lighter;
+        margin-top:190px;
+        margin-left: 0px;
+        font-family: "ubuntu";
+        line-height:27px;
+        
+    }
+    .twopara2{
+        font-size: 16px ;
+        font-weight: lighter;
+        margin-top: 50px;
+        margin-left: 0px;
+        font-family: "ubuntu";
+        margin-right: 10px;
+        line-height: 18px;
+        
+    }
+    .fourpara{
+        font-size: 22px ;
+        font-weight: lighter;
+        line-height:27px;
+        margin-left: -2em;
+        font-family: "ubuntu";
+        margin-top:190px;
+    }
+    .signup{
+        margin-top: 90px;
+margin-left: -1em;
+    }
+    .icon{
+        width: 100px;
+        margin-left: 0px;
+        margin-top: 90px;
+    
+    }
+    
+    .twoCol{
+        margin-top: 20em; 
+       
+    }
+    .icon2{
+        width: 100px;
+        margin-top: 90px;
+        margin-left: 100px;
+    
+    }
+    .box{
+        width: 270px;
+        height: 40px;
+        border-radius: 10px;
+        border: #000 2px solid;
+        margin-left: -2.7em;
+        margin-top:190px;
+       flex-direction: row;
+    
+       margin-top: 50px;
+       display: flex;
+       align-items: center;
+    }
+    
+    
+    .input{
+        flex: 2;
+        height: 20px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        padding-right:5px ;
+        padding-left:5px ;
+        font-family: "ubuntu";
+        width: 100px;
+        
+    }
+    
+    button{
+    background-color: #000;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+   left: 6em;
+    }
+    .black{
+        width: 55em;
+        height: 150px;
+        border: #ffd200 3px solid;
+        border-radius: 20px;
+        position: relative;
+       top: 4em;
+        margin-left:50px;
+        display: flex;
+        flex-direction: row;
+        padding-right: 20px;
+       
+       
+      
+        
+        
+       }
+    .black2{
+        width: 14em;
+        height: 145px;
+    border-right: #ffd200 3px solid;
+    }
+    .taskamlogo{
+        width: 180px;
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+    }
+    .footer{
+        font-size: 16px;
+            font-weight: lighter;
+              font-family: "ubuntu";
+            color: #fff ;
+            line-height: 21px;
+        }
+        .follow{
+            
+               display: none;
+            }
+    .taskamyellow{
+        color: #ffd200;
+        font-family: "ubuntu";
+        font-size: 30px;
+        font-weight: lighter;
+       font-family: "ubuntu";
+       margin-left: -1em;
+       margin-top: 3em;
+        }
+    ul li{
+        font-size: 18px;
+        font-weight: lighter;
+        color: #fff;
+        cursor: pointer;
+        padding: 7px;
+        font-family: "ubuntu";
+        list-style-type: none;
+        margin-left:-2em;
+    }
+    .socialmedia-icons{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: solid #ffd200 3px;
+        margin-left: 10px;
+        margin-top: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        .socialmedia{
+            display: flex;
+            flex-direction: row;
+            margin-top: 0.6em;
+            cursor: pointer;
+          left:11em ;
+            position: relative;
+          
+           
+        }   
+        .fabook-icons{
+            font-size:14px; 
+            color: #ffd200;
+            margin-top: 18px;
+        } 
+        
+       
+        
+         .navigate{
+            color: #000;
+            text-align: center;
+            font-family: 'ubuntu';
+            font-size: 16px ;
+           top: 3em;
+            position: absolute;
+            z-index: 9;
+            left: 3em;
+            line-height: 18px;
+            
+        }
+        .navigate3{
+            color: #000;
+            text-align: center;
+            font-family: 'ubuntu';
+            font-size: 16px ;
+           top: 3em;
+            position: absolute;
+            z-index: 9;
+            left: 3em;
+            line-height: 18px;
+            
+        }
+
+        .navigate2{
+            color: #000;
+            text-align: center;
+            font-family: 'ubuntu';
+          right: -1em;
+            position: relative;
+            top: -15.7em;
+            z-index: 9;
+            font-size: 16px ;
+            line-height: 18px;
+        }
+        .navigate4{
+            color: #000;
+            text-align: center;
+            font-family: 'ubuntu';
+          right: 0.9em;
+            position: relative;
+            top:-34em;
+            z-index: 9;
+            font-size: 16px ;
+            line-height: 18px;
+        }
+        .hide{
+            margin-left: -64px;
+        }
+    ul li{
+        margin-left: -4em;
+    }
+   
+} 
+
+
+
+
+
